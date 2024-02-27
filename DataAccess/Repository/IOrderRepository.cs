@@ -1,17 +1,18 @@
 ﻿
 using BusinessObject;
+using System;
 using System.Collections.Generic;
 
 namespace DataAccess.Repository
 {
-    public interface IOrderDetailRepository
+    public interface IOrderRepository
     {
-        IEnumerable<OrderDetailObject> GetOrderDetails();
-        IEnumerable<OrderDetailObject> GetOrderDetailsByOrderID(int orderID);
-        OrderDetailObject GetOrderDetailByOrderID(int orderDetail);
-        OrderDetailObject GetOrderDetailByProductID(int productID);
-        void InsertOrderDetail(OrderDetailObject orderDetail);
-        void DeleteOrderDetail(int orderDetailID);
-        void UpdateOrderDetail(OrderDetailObject orderDetail);
+        IEnumerable<OrderObject> GetOrders();
+        List<Object> GetOrderListTotalByID(DateTime StartDate, DateTime EndDate);
+        List<OrderObject> GetOrderByMemberID(int memberID);
+        OrderObject GetOrderByID(int orderID);
+        void InsertOrder(OrderObject order);
+        void DeleteOrder(int orderID);
+        void UpdateOrder(OrderObject order);
     }
 }
