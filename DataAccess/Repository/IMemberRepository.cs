@@ -1,12 +1,14 @@
-﻿using System;
+﻿using BusinessObject;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace DataAccess.Repository
+namespace DataAccess
 {
-    internal class IMemberRepository
+    public interface IMemberRepository
     {
+        IEnumerable<MemberObject> GetMembers();
+        MemberObject GetMemberByID(int memberID);
+        void InsertMember(MemberObject member);
+        void DeleteMember(int memberID);
+        void UpdateMember(MemberObject member);
     }
 }
