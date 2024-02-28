@@ -1,0 +1,15 @@
+﻿{
+  "ConnectionString": {
+    "MySalesDB": "Server=DESKTOP-JU635VC;uid=sa;pwd=23052003;database=SaleManagement; TrustServerCertificate=True"
+  },
+
+  "AdminAccount": {
+    "MemberID": 1,
+    "Email": "phamphuonganhk23@gmail.com",
+    "CompanyName": "FPT",
+    "Password": "2305",
+    "Country": "Viet Nam",
+    "City": "Hai Duong"
+  }
+
+}

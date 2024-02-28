@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Data.SqlClient;
 using System.Diagnostics;
+using Microsoft.Data.SqlClient;
 
 namespace DataAccess
 {

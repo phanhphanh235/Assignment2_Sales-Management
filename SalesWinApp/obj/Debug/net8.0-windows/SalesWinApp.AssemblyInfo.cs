@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SalesWinApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+feca7058113be9dce1cfeb57d12debed74bce19a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SalesWinApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SalesWinApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
